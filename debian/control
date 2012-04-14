@@ -3,6 +3,10 @@ Section: x11
 Priority: extra
 Maintainer: Mario Guerriero <mefrio.g@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), 
+    automake,
+    libtool,
+    intltool,
+    autoconf,
     libgtk-3-dev,
     libpantheon-dev,
     libcairo2-dev,
