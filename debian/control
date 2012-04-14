@@ -1,0 +1,28 @@
+Source: activity-log-manager
+Section: x11
+Priority: extra
+Maintainer: Mario Guerriero <mefrio.g@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), 
+    libgtk-3-dev,
+    libpantheon-dev,
+    libcairo2-dev,
+    libzeitgeist-dev
+Standards-Version: 3.9.2
+Homepage: https://launchpad.net/activity-log-manager
+
+Package: activity-log-manager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: zeitgest manager for switchboard
+ Activity Log manager is an advanced zeitgeist for your desktop
+
+Package: activity-log-manager-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: activity-log-manager (= ${binary:Version}), ${misc:Depends}
+Enhances: activity-log-manager
+Description: zeitgest manager for switchboard (debugging symbols)
+ Activity Log manager is an advanced zeitgeist for your desktop
+ .
+ This package contains debugging symbols for activity-log-manager.
