@@ -5,6 +5,7 @@ Maintainer: Mario Guerriero <mefrio.g@gmail.com>
 Build-Depends: autoconf,
                automake,
                debhelper (>= 8.0.0),
+               desktop-file-utils,
                intltool,
                libcairo2-dev,
                libgee-dev,
