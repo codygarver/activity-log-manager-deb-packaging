@@ -20,8 +20,8 @@ Homepage: https://launchpad.net/activity-log-manager
 Package: activity-log-manager
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Conflicts: activity-log-manager-control-center
-Replaces: activity-log-manager-control-center
+Conflicts: activity-log-manager-control-center, activity-log-manager-control-common
+Replaces: activity-log-manager-control-center, activity-log-manager-control-common
 Description: zeitgest manager for switchboard
  Activity Log manager is an advanced zeitgeist for your desktop
 
