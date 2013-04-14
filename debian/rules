@@ -4,7 +4,7 @@
 	dh $@ 
 
 override_dh_auto_configure:
-	sh ./autogen.sh --prefix=/usr
+	sh ./autogen.sh --prefix=/usr --with-switchboard
 
 override_dh_strip:
 	dh_strip --dbg-package=activity-log-manager-dbg
